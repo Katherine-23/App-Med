@@ -1,11 +1,11 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'backend-projectt1.vercel.app', 
+  baseURL: 'https://movilbackend.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
   }
 });
-  
-export default api; 
+
+export default api;
